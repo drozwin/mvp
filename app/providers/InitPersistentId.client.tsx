@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { getPersistentIdStrict } from '../lib/persistentIdweb';
+import { getPersistentIdStrict } from '../persist/persistentId';
 
 export default function InitPersistentId({ sendToServerOnInit = false }: { sendToServerOnInit?: boolean }) {
   const [id, setId] = useState<string | null>(null);

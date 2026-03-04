@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { getPersistentIdStrict } from '../lib/persistentIdweb';
+import { getPersistentIdStrict } from '../persist/persistentId';
 
 export default function InitPersistentId() {
     useEffect(() => {
